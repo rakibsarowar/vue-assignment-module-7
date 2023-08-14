@@ -43,7 +43,7 @@ function updateCarousel() {
 
 </script>
 <template>
-    <h2 class="text-bold uppercase underline text-center my-8">Carousel</h2>
+    <h2 class="text-2xl text-gray-900 text-center">Carousel</h2>
     <form>
         <div class="flex justify-center my-8">
             <div class="flex flex-row gap-4 px-36 w-3/6 ">

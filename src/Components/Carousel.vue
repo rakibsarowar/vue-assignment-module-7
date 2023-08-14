@@ -11,7 +11,7 @@ const items = ref([
         url: 'https://images.unsplash.com/photo-1622959185770-1aea5a4e5e4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80'
     },
     {
-        title: 'While you are not able to serve men, how can you serve spirits [of the dead]?...While you do not know life, how can you know about death?',
+        title: 'Haven of Nature',
         url: 'https://images.unsplash.com/photo-1682687982167-d7fb3ed8541d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80'
     },
 ])
@@ -43,6 +43,7 @@ function updateCarousel() {
 
 </script>
 <template>
+    <h2 class="text-bold uppercase underline text-center my-8">Carousel</h2>
     <form>
         <div class="flex justify-center my-8">
             <div class="flex flex-row gap-4 px-36 w-3/6 ">

@@ -1,5 +1,6 @@
 <script setup>
 import Carousel from './Components/Carousel.vue';
+import chart from './Components/Chart.vue';
 </script>
 
 <template>
@@ -7,6 +8,7 @@ import Carousel from './Components/Carousel.vue';
     <Carousel></Carousel>
     <br>
     <hr class="my-12">
+    <chart></chart>
 </template>
 
 <style></style>
